@@ -5,11 +5,10 @@ Project Overview
 This project involves two main components:
 
 Image Transfer:
-
 This component is responsible for sending image data from the drone to the laptop.
 The image transfer is performed using a simple HTTP command, which sends unprocessed images over a local network from an RPi (Raspberry Pi) mounted on the drone to the laptop.
-Image Processing:
 
+Image Processing:
 This component processes the images received on the laptop.
 It uses OpenCV's color detection library to analyze the images.
 
