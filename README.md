@@ -2,7 +2,6 @@
 This repository is part of my MCE314 Mechatronics Engineering Design class. The goal of this project is to develop a system that processes images captured by a drone and sends them to a remote laptop for further analysis.
 
 Project Overview
-
 This project involves two main components:
 
 Image Transfer:
