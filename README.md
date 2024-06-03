@@ -36,7 +36,7 @@ This guide provides step-by-step instructions to install and run the MJPEG Strea
 1. Open a terminal or command prompt.
 2. Create a virtual environment by running:
     ```sh
-  python -m venv myenv
+    python -m venv myenv
 3. Activate virtual enviroment
    On Windows:
     ```sh
