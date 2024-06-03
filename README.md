@@ -53,7 +53,7 @@ This guide provides step-by-step instructions to install and run the MJPEG Strea
 
 ### Step 4: Save the Provided Code
 
-1.Save the provided code in a file named 'camera3.py'
+1. Save the provided code in a file named 'camera3.py'
 
 ### Step 5: Run the Code
 
