@@ -1,18 +1,15 @@
 # Drone Image Transfer and Processing System
-This repository is part of my MCE314 Mechatronics Engineering Design class. The goal of this project is to develop a system that processes images captured by a drone and sends them to a remote laptop for further analysis.
+This repository is part of my MCE314 Mechatronics Engineering Design class. The goal of this project is to develop a system that streams images from a drone and sends them to a remote laptop for image processing.
 
 Project Overview
-This project involves two main components:
+This project involves two main scrpits:
 
 Camera:
-This component is responsible for sending image data from the drone to the laptop.
+This script is responsible for sending image data from the drone to the laptop.
 The image transfer is performed using a MJPEG Streaming Server, which sends unprocessed images over a local network from an RPi (Raspberry Pi) mounted on the drone to the laptop.
 
 Camera Client:
-This component processes the images received on the laptop.
-It uses OpenCV's color detection library to analyze the images.
-
-
+This script processes the images received on the laptop using OpenCV's color detection library to detect and highlight specific colors based on user-defined ranges. The processed images are then displayed in a Tkinter window, showing the areas where the specified color is detected along with some statistical information about the detection.
 
 # Camera Installation Guide
 
@@ -120,8 +117,6 @@ It uses OpenCV's color detection library to analyze the images.
 1. Execute the script in the terminal or command prompt
    ```sh
    python camera client4.py
-
-
 
 # Additional Configuration
 
