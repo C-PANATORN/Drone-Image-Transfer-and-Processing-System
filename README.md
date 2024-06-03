@@ -12,9 +12,9 @@ Camera Client:
 This component processes the images received on the laptop.
 It uses OpenCV's color detection library to analyze the images.
 
-# Camera Installation Guide
 
-This guide provides step-by-step instructions to install and run the MJPEG Streaming Server using the provided Python code.
+
+# Camera Installation Guide
 
 ## Prerequisites
 
@@ -65,7 +65,63 @@ This guide provides step-by-step instructions to install and run the MJPEG Strea
 
 1. Open a web browser and navigate to http://localhost:8000 to view the streaming video.
 
-## Additional Configuration
+
+
+# Camera Client Installation
+
+## Prerequisites
+
+- **Python 3.x**: Ensure Python 3.x is installed on your system. Download it from the [official Python website](https://www.python.org/).
+- **OpenCV**: Install using pip:
+  ```sh
+  pip install opencv-python
+- **Pillow**: Install using pip:
+  ```sh
+  pip install pillow
+- **Numpy**: Install using pip:
+  ```sh
+  pip install numpy
+   
+### Step 1: Install Python
+
+1. Download and install Python 3.x from the [official Python website](https://www.python.org/).
+2. Verify the installation by opening a terminal or command prompt and typing:
+   ```sh
+   python --version
+
+### Step 2: Set Up Virtual Enviroment
+
+1. Open a terminal or command prompt.
+2. Create a virtual environment by running:
+    ```sh
+    python -m venv myenv
+3. Activate virtual enviroment
+- On Windows:
+    ```sh
+   myenv\Scripts\activate
+- On Mac/Linux:
+   ```sh
+   source myenv/bin/activate
+
+### Step 3: Install Required Libraries
+
+1. With the virtual enviroment activated, install OpenCV using pip:
+   ```sh
+   pip install opencv-python pillow numpy
+
+### Step 4: Save the Provided Code
+
+1. Save the provided code in a file named 'camera client4.py'
+
+### Step 5: Run the Code
+
+1. Execute the script in the terminal or command prompt
+   ```sh
+   python camera client4.py
+
+
+
+# Additional Configuration
 
 Permissions
 - Ensure you have the necessary permissions to access the webcam and open network ports.
