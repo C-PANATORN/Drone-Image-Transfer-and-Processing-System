@@ -81,7 +81,9 @@ It uses OpenCV's color detection library to analyze the images.
 - **Numpy**: Install using pip:
   ```sh
   pip install numpy
-   
+
+## Step-by-Step Installation
+  
 ### Step 1: Install Python
 
 1. Download and install Python 3.x from the [official Python website](https://www.python.org/).
