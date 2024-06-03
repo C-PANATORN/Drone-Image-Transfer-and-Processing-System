@@ -127,8 +127,8 @@ Firewall Settings
 - Configure your firewall to allow traffic on port 8000.
 
 Troubleshooting
--Python Version: Ensure you are using Python 3.x.
--Dependencies: Verify that OpenCV is installed correctly in the virtual environment.
--Port Availability: Ensure port 8000 is not occupied by another application.
+- Python Version: Ensure you are using Python 3.x.
+- Dependencies: Verify that OpenCV is installed correctly in the virtual environment.
+- Port Availability: Ensure port 8000 is not occupied by another application.
 
 By following this guide, you should be able to successfully install and run the MJPEG Streaming Server using the provided Python code.
