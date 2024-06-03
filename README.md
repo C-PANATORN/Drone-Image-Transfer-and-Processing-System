@@ -38,10 +38,11 @@ This guide provides step-by-step instructions to install and run the MJPEG Strea
     ```sh
     python -m venv myenv
 3. Activate virtual enviroment
-   On Windows:
+- On Windows:
     ```sh
    myenv\Scripts\activate
-   On macOS/Linux:
+- On Mac/Linux:
+   ```sh
    source myenv/bin/activate
 
 ### Step 3: Install OpenCV
